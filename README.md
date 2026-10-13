@@ -123,6 +123,7 @@ Revisar `src/test/resources/serenity.conf` y ajustar si es necesario:
 3. Ejecutar las pruebas desde la raíz del proyecto:
    ```bash
    # Linux / macOS
+   chmod +x gradlew ejecutar-prueba.command   # solo la primera vez
    ./gradlew clean test
 
    # Windows
